@@ -45,9 +45,9 @@ for (let i = 0; i < timeArray.length; i++) {
     timeSlot.append(saveElement);
     $(".container").append(timeSlot);
 
-}
-// localStorage
-saveBtn.on("click", function () {
-    localStorage.setItem(time, inputArea.val());
-});
-
+    // localStorage
+    $(".saveBtn").on("click", function () {
+        localStorage.setItem(time, inputArea.val());
+    }
+    )
+};
