@@ -32,3 +32,14 @@ Date is displayed by declaring time Element and setting it equal to the moment f
 let timeElement= moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
 
 Then timeElement is appended to the <p> with id 'currentDay'
+
+## Elements created with jQuery 
+The following elements were created and appended using jquery.
+$("<div>")
+$("<section>")
+$("<button>)
+$("<textarea>)
+
+### for loop 
+
+### local storage
