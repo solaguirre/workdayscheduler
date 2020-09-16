@@ -1,24 +1,16 @@
 
-// Date displayed, source: Flame Trap on Stack Overflow
+// Date: 
+// THEN the current day is displayed at the top of the calendar
+let container = (".container");
+let timeArray = ["9:00 a.m", "10:00 a.m", "11:00 a.m", "12:00 p.m", "1:00 p.m", "2:00 p.m", "3:00 p.m", "4:00 p.m", "5:00 p.m",
+];
+let timeDisplay = $("#currentDay")
 
-document.querySelector("#currentDay").innerHTML = dateDisplay();
+let timeElement = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+timeDisplay.append(timeElement);
 
-function dateDisplay() {
-    let date = new Date(),
-        months = ["January", "February", "March", "April", "May", "June", "July ", "August", "September", "October", "November", "December"],
-        days = ["Sunday,", "Monday,", "Tuesday,", "Wednesday,", "Thursday,", "Friday,", "Saturday,"];
-    return days[date.getDay()] + ' ' + months[date.getMonth()] + ' ' + date.getDate() + ' ' + date.getFullYear()
+// console.log(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
 
-}
+// THEN I am presented with timeblocks for standard business hours
 
-// let dayPlanner = [
 
-//     {
-//         id: "0",
-//         hour: "06",
-//         time: "06",
-//         meridiem: "am",
-//         reminder: ""
-//     }
-
-// ]
