@@ -1,20 +1,25 @@
 
 // Date: 
 // THEN the current day is displayed at the top of the calendar
-let container = (".container");
-let timeArray = ["9:00 a.m", "10:00 a.m", "11:00 a.m", "12:00 p.m", "1:00 p.m", "2:00 p.m", "3:00 p.m", "4:00 p.m", "5:00 p.m",
-];
+let timecontainer = (".container");
+let timeArray = ["9:00 a.m", "10:00 a.m", "11:00 a.m", "12:00 p.m", "1:00 p.m", "2:00 p.m", "3:00 p.m", "4:00 p.m", "5:00 p.m"];
+
+// added array to be used in colorCode function
+let timeNumber = [9, 10, 11, 12, 13, 14, 15, 16, 17];
+
 let timeDisplay = $("#currentDay")
 
+// Time display and append to currentDay <p> tag
 let timeElement = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
 timeDisplay.append(timeElement);
 
-// console.log(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
-
 // THEN I am presented with timeblocks for standard business hours
 
+// WHEN I click the save button for that timeblock
 
-// for loop for timeArray
+// THEN the text for that event is saved in local storage
+
+// for loop for timeArray creating elements with jquery
 
 for (let i = 0; i < timeArray.length; i++) {
 
@@ -25,15 +30,15 @@ for (let i = 0; i < timeArray.length; i++) {
     hourElement.text(time);
     timeSlot.append(hourElement);
 
-    let inputElement = $("<div>").addClass("col-lg-6 col text-center");
+    let inputElement = $("<div>").addClass("col-lg-6 col text-center color-block");
+    // adding id attribute to loop through
+    inputElement.attr("id", timeNumber[i]);
     let inputArea = $("<textarea>");
     $(this).attr('cols', "50")
     inputArea.attr('id', time);
     inputElement.append(inputArea);
     timeSlot.append(inputElement);
 
-    // WHEN I click the save button for that timeblock
-    // THEN the text for that event is saved in local storage
     let textInput = localStorage.getItem(time);
     inputArea.val(textInput);
 
@@ -48,6 +53,31 @@ for (let i = 0; i < timeArray.length; i++) {
     // localStorage
     $(".saveBtn").on("click", function () {
         localStorage.setItem(time, inputArea.val());
-    }
-    )
+    })
 };
+
+// THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+
+function colorCode() {
+    let currentHour = moment().hours()
+    // console.log(currentHour);
+
+    $(".color-block").each(function () {
+        let blockHour = parseInt($(this).attr('id'));
+        // console.log(blockHour)
+
+        if (blockHour < currentHour) {
+            $(this).addClass("past");
+        } else if (blockHour === currentHour) {
+            $(this).removeClass("past");
+            $(this).addClass("present");
+        } else {
+            $(this).removeClass("present");
+            $(this).removeClass("past");
+            $(this).addClass("future");
+        }
+    })
+
+}
+// call function
+colorCode();
