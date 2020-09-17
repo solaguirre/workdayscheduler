@@ -1,7 +1,7 @@
 
 // Date: 
 // THEN the current day is displayed at the top of the calendar
-let timecontainer = (".container");
+let timecontainer = (".container-fluid");
 let timeArray = ["9:00 a.m", "10:00 a.m", "11:00 a.m", "12:00 p.m", "1:00 p.m", "2:00 p.m", "3:00 p.m", "4:00 p.m", "5:00 p.m"];
 
 // added array to be used in colorCode function
@@ -33,8 +33,8 @@ for (let i = 0; i < timeArray.length; i++) {
     let inputElement = $("<div>").addClass("col-lg-6 col text-center color-block");
     // adding id attribute to loop through
     inputElement.attr("id", timeNumber[i]);
-    let inputArea = $("<textarea>");
-    $(this).attr('cols', "50")
+    let inputArea = $("<textarea>").addClass('textarea');
+    $(this).attr('cols', 120)
     inputArea.attr('id', time);
     inputElement.append(inputArea);
     timeSlot.append(inputElement);
@@ -42,13 +42,13 @@ for (let i = 0; i < timeArray.length; i++) {
     let textInput = localStorage.getItem(time);
     inputArea.val(textInput);
 
-    let saveElement = $("<div>").addClass('col-lg-3 col text-center align-items-center');
-    let saveBtn = $('<button>').addClass('saveBtn');
+    let saveElement = $("<div>").addClass('col-lg-3 col text-center');
+    let saveBtn = $('<button>').addClass('saveBtn fa fa-save');
     saveBtn.attr("date-time", time);
-    saveBtn.text('save');
+    saveBtn.addClass('btn');
     saveElement.append(saveBtn);
     timeSlot.append(saveElement);
-    $(".container").append(timeSlot);
+    $(".container-fluid").append(timeSlot);
 
     // localStorage
     $(".saveBtn").on("click", function () {
