@@ -73,9 +73,9 @@ Used ```attr()``` and ```addClass()``` to add attributes to created elements and
 
 [![Screen-Shot-2020-10-07-at-9-01-09-PM.png](https://i.postimg.cc/B6NdKXkg/Screen-Shot-2020-10-07-at-9-01-09-PM.png)](https://postimg.cc/dkkHMtqk)
 
-### Marisol Aguirre
 
 ## Contact Me
+### Marisol Aguirre
 
 * [Junior Full Stack Developer - UA Coding Bootcamp](#updated-portfolio)
 * [GitHub Profile](https://github.com/solaguirre)
