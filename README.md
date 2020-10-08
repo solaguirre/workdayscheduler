@@ -1,4 +1,19 @@
-# workdayscheduler
+# Workday Scheduler
+<p align="center">
+<i class="fas fa-globe-americas"></i>
+
+  <h3 align="center"><strong>Daily Planner App - Workday Scheduler</strong></h3>
+
+  <p align="center">
+    Check your the current temperature anywhere and save your results. 
+    <br />
+    <br />
+    <a href="https://github.com/solaguirre/workdayscheduler/"><strong>View Demo »</strong></a>
+    <br />
+    <br />
+   
+  </p>
+</p>
 
 ## User Story
 
