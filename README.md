@@ -6,8 +6,16 @@ AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
+## About The Project
 
 The purpose of this assignment is to create a worday scheduler that stores input data into local storage, and the changes are saved when the page is refreshed. 
+
+## Created With
+
+* HTML
+* JavaScript
+* jQuery
+* CSS
 
 ## Date Display
 
@@ -41,3 +49,11 @@ Used ```attr()``` and ```addClass()``` to add attributes to created elements and
 ## Scheduler looks like this 
 
 [![Screen-Shot-2020-09-16-at-9-34-23-PM.png](https://i.postimg.cc/05phFWgL/Screen-Shot-2020-09-16-at-9-34-23-PM.png)](https://postimg.cc/XXY2ygY8)
+
+## Contact Me
+
+* Marisol Aguirre
+Contact: soulaguirre@gmail.com
+GitHub: https://github.com/solaguirre
+
+Project Link: [https://solaguirre.github.io/weatherdashboard/](https://solaguirre.github.io/weatherdashboard/)
