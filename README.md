@@ -56,4 +56,4 @@ Used ```attr()``` and ```addClass()``` to add attributes to created elements and
 Contact: soulaguirre@gmail.com
 GitHub: https://github.com/solaguirre
 
-Project Link: [https://solaguirre.github.io/weatherdashboard/](https://solaguirre.github.io/weatherdashboard/)
+Project Link: [https://solaguirre.github.io/workdayscheduler/](https://solaguirre.github.io/workdayscheduler/)
