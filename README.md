@@ -23,7 +23,7 @@ SO THAT I can manage my time effectively
 
 ## About The Project
 
-The purpose of this assignment is to create a worday scheduler that stores input data into local storage, and the changes are saved when the page is refreshed. 
+The purpose of this assignment is to create a worday scheduler that stores input data into local storage, and the changes are saved when the page is refreshed. The idea is to facilitate your daily planning allowing you to view your tasks and appointments for the day. 
 
 ## Created With
 
