@@ -50,6 +50,14 @@ Used ```attr()``` and ```addClass()``` to add attributes to created elements and
 
 [![Screen-Shot-2020-09-16-at-9-34-23-PM.png](https://i.postimg.cc/05phFWgL/Screen-Shot-2020-09-16-at-9-34-23-PM.png)](https://postimg.cc/XXY2ygY8)
 
+## Date:
+
+[![Screen-Shot-2020-10-07-at-9-01-09-PM.png](https://i.postimg.cc/B6NdKXkg/Screen-Shot-2020-10-07-at-9-01-09-PM.png)](https://postimg.cc/dkkHMtqk)
+
+## Colors correspond to future, current and past events
+
+[![Screen-Shot-2020-10-07-at-9-01-09-PM.png](https://i.postimg.cc/B6NdKXkg/Screen-Shot-2020-10-07-at-9-01-09-PM.png)](https://postimg.cc/dkkHMtqk)
+
 ## Contact Me
 
 * Marisol Aguirre
