@@ -73,10 +73,11 @@ Used ```attr()``` and ```addClass()``` to add attributes to created elements and
 
 [![Screen-Shot-2020-10-07-at-9-01-09-PM.png](https://i.postimg.cc/B6NdKXkg/Screen-Shot-2020-10-07-at-9-01-09-PM.png)](https://postimg.cc/dkkHMtqk)
 
+### Marisol Aguirre
+
 ## Contact Me
 
-* Marisol Aguirre
-Contact: soulaguirre@gmail.com
-GitHub: https://github.com/solaguirre
-
-Project Link: [https://solaguirre.github.io/workdayscheduler/](https://solaguirre.github.io/workdayscheduler/)
+* [Junior Full Stack Developer - UA Coding Bootcamp](#updated-portfolio)
+* [GitHub Profile](https://github.com/solaguirre)
+* [E-mail](soulaguirre@gmail.com)
+* [Project link](https://solaguirre.github.io/workdayscheduler/)
