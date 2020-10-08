@@ -34,7 +34,7 @@ for (let i = 0; i < timeArray.length; i++) {
     // adding id attribute to loop through
     inputElement.attr("id", timeNumber[i]);
     let inputArea = $("<textarea>").addClass('textarea');
-    $(this).attr('cols', 120)
+    $(this).attr('cols', 120);
     inputArea.attr('id', time);
     inputElement.append(inputArea);
     timeSlot.append(inputElement);
