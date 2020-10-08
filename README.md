@@ -78,6 +78,6 @@ Used ```attr()``` and ```addClass()``` to add attributes to created elements and
 ### Marisol Aguirre
 
 * [Junior Full Stack Developer - UA Coding Bootcamp](#updated-portfolio)
-* [GitHub Profile](https://github.com/solaguirre)
-* [E-mail](soulaguirre@gmail.com)
-* [Project link](https://solaguirre.github.io/workdayscheduler/)
+* [GitHub Profile: solaguirre](https://github.com/solaguirre)
+* [E-mail:soulaguirre@gmail.com](soulaguirre@gmail.com)
+* [Daily Planner Project link](https://solaguirre.github.io/workdayscheduler/)
